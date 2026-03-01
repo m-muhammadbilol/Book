@@ -18,7 +18,7 @@ export default function App() {
       element: <Info />,
     },
     {
-      path: "/login",
+      path: "/Login",
       element: <Login />,
     },
     {

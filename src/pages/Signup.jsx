@@ -37,7 +37,7 @@ export default function Signup() {
       .then((res) => {
         localStorage.setItem("token", res.access_token);
         customToast.success("Muvaffaqiyatli ro‘yxatdan o‘tildi");
-        navigate("/login");
+        navigate("/Login");
       })
       .catch(() => {
         customToast.error("Birozdan So'ng qayta urining!");
@@ -92,7 +92,7 @@ export default function Signup() {
             </Button>
           </Link>
 
-          <Link to="/login">
+          <Link to="/Login">
             <Button className="w-full h-10 bg-black text-white hover:bg-gray-800">
               Login sahifasiga o‘tish
             </Button>

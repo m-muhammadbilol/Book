@@ -33,7 +33,7 @@ export default function App() {
   function handleOpen() {
     if (!isLogin()) {
       customToast.error("Avval login qiling");
-      navigate("/login");
+      navigate("/Login");
       return;
     }
     setOpen(true);
@@ -42,7 +42,7 @@ export default function App() {
     evt.preventDefault();
 
     if (!isLogin()) {
-      navigate("/login");
+      navigate("/Login");
       return;
     }
     const formData = new FormData(evt.target);
@@ -335,11 +335,11 @@ export default function App() {
               const token = localStorage.getItem("token");
               if (!token) {
                 customToast.error("Login qilinmagan");
-                navigate("/login");
+                navigate("/Login");
                 return;
               }
               if (!isLogin()) {
-                navigate("/login");
+                navigate("/Login");
                 return;
               }
               const formData = new FormData(evt.target);
