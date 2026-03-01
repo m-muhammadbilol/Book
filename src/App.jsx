@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Info from "./pages/Info";
 import Page404 from "./pages/Page404";
-import Login from "./pages/login";
+import Login from "./pages/Login";
 import { Toaster } from "@/components/ui/sonner";
 import Signup from "./pages/Signup";
 
