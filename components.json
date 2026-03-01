@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": false,
+  "tsx": false,
+  "tailwind": {
+    "config": "",
+    "css": "src/index.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "iconLibrary": "lucide",
+  "rtl": false,
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "registries": {
+    "@coss": "https://coss.com/ui/r/{name}.json",
+    "@magicui": "https://magicui.design/r/{name}",
+    "@tour": "https://onboarding-tour.vercel.app/r/{name}.json",
+    "@react-bits": "https://reactbits.dev/r/{name}.json",
+    "@pureui": "https://pure.kam-ui.com/r/{name}.json",
+    "@gooseui": "https://gooseui.pro/r/{name}.json",
+    "@reui": "https://reui.io/r/{style}/{name}.json"
+  }
+}
